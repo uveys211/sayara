@@ -1,1 +1,355 @@
-/*# sourceMappingURL=style.css.map */
+#about {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#about .box-left {
+  margin: 50px 0;
+}
+#about .box-left h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+#about .box-left p {
+  width: 75%;
+  color: #808080;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+#about .box-left a {
+  text-decoration: none;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #E52727;
+  padding: 15px 50px;
+  border-radius: 8mm;
+}
+
+#stores {
+  text-align: center;
+  background-color: #FAFAFA;
+  padding: 100px;
+}
+#stores h1 {
+  font-size: 70px;
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+
+#test {
+  padding-bottom: 150px;
+}
+#test .box-top {
+  padding-bottom: 40px;
+  text-align: center;
+  padding: 50px;
+}
+#test .box-top h1 {
+  color: #333;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#test .boxess {
+  width: 100%;
+  flex-direction: column-reverse;
+}
+#test .boxess .img-boxs {
+  width: 60% !important;
+  height: 300px !important;
+  margin-left: 0;
+  position: relative;
+}
+#test .boxess .img-boxs img {
+  width: 100%;
+  height: 100% !important;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+  left: 100%;
+}
+#test .boxess .img-boxs img:nth-child(1) {
+  left: 0;
+}
+#test .boxess .content {
+  width: 100%;
+  margin-left: 20px;
+}
+#test .boxess .content ul li i {
+  color: orange;
+  margin: 0 2px;
+}
+#test .boxess .content .testi-bottom {
+  position: relative;
+}
+#test .boxess .content .testi-bottom .next {
+  position: absolute;
+  right: 75%;
+  color: #E52727;
+  background-color: white;
+  border: 2px solid #E52727;
+  padding: 10px 15px;
+  border-radius: 8mm;
+  transition: 0.3s ease-in-out;
+}
+#test .boxess .content .testi-bottom .next:hover {
+  color: white;
+  background-color: #E52727;
+}
+#test .boxess .content .testi-bottom .prev {
+  position: absolute;
+  left: 0;
+  color: #E52727;
+  background-color: white;
+  border: 2px solid #E52727;
+  padding: 10px 15px;
+  border-radius: 8mm;
+  transition: 0.3s ease-in-out;
+}
+#test .boxess .content .testi-bottom .prev:hover {
+  color: white;
+  background-color: #E52727;
+}
+
+#take {
+  height: 33vh;
+  position: relative;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #E52727 25%, rgba(0, 0, 0, 0.8) 70%);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+#take .box-left {
+  margin-top: 70px;
+}
+#take .box-left h1 {
+  width: 100%;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+#take .box-left h5 {
+  color: white;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#take .box-right {
+  display: none;
+}
+#take .box-right .wheel {
+  position: absolute;
+  top: -50px;
+  width: 350px;
+  height: 320px;
+  right: 80px;
+}
+
+@media (min-width: 576px) {
+  #test .boxess {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  #test .boxess .img-boxs {
+    width: 60% !important;
+    height: 300px !important;
+    margin-left: 0;
+    position: relative;
+  }
+  #test .boxess .img-boxs img {
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    left: 100%;
+  }
+  #test .boxess .img-boxs img:nth-child(1) {
+    left: 0;
+  }
+  #test .boxess .content {
+    width: 100%;
+    margin-left: 20px;
+  }
+  #test .boxess .content ul li i {
+    color: orange;
+    margin: 0 2px;
+  }
+  #test .boxess .content .testi-bottom {
+    position: relative;
+  }
+  #test .boxess .content .testi-bottom .next {
+    position: absolute;
+    right: 78%;
+    color: #E52727;
+    background-color: white;
+    border: 2px solid #E52727;
+    padding: 10px 15px;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+  }
+  #test .boxess .content .testi-bottom .next:hover {
+    color: white;
+    background-color: #E52727;
+  }
+  #test .boxess .content .testi-bottom .prev {
+    position: absolute;
+    left: 0;
+    color: #E52727;
+    background-color: white;
+    border: 2px solid #E52727;
+    padding: 10px 15px;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+  }
+  #test .boxess .content .testi-bottom .prev:hover {
+    color: white;
+    background-color: #E52727;
+  }
+}
+@media (min-width: 768px) {
+  #test .boxess {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  #test .boxess .img-boxs {
+    width: 40% !important;
+    height: 300px !important;
+    margin-left: 0;
+    position: relative;
+  }
+  #test .boxess .img-boxs img {
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    left: 100%;
+  }
+  #test .boxess .img-boxs img:nth-child(1) {
+    left: 0;
+  }
+  #test .boxess .content {
+    width: 55%;
+    margin-left: 20px;
+  }
+  #test .boxess .content ul li i {
+    color: orange;
+    margin: 0 2px;
+  }
+  #test .boxess .content .testi-bottom {
+    position: relative;
+  }
+  #test .boxess .content .testi-bottom .next {
+    position: absolute;
+    right: 70%;
+    color: #E52727;
+    background-color: white;
+    border: 2px solid #E52727;
+    padding: 10px 15px;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+  }
+  #test .boxess .content .testi-bottom .next:hover {
+    color: white;
+    background-color: #E52727;
+  }
+  #test .boxess .content .testi-bottom .prev {
+    position: absolute;
+    left: 0;
+    color: #E52727;
+    background-color: white;
+    border: 2px solid #E52727;
+    padding: 10px 15px;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+  }
+  #test .boxess .content .testi-bottom .prev:hover {
+    color: white;
+    background-color: #E52727;
+  }
+  #take .box-left {
+    width: 40%;
+  }
+  #take .box-right {
+    display: block;
+  }
+  #take .box-right .wheel {
+    position: absolute;
+    top: 0;
+    width: 320px;
+    height: 280px;
+    right: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #test .boxess {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  #test .boxess .img-boxs {
+    width: 22% !important;
+    height: 250px !important;
+    margin-left: 0;
+    position: relative;
+  }
+  #test .boxess .img-boxs img {
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+    left: 100%;
+  }
+  #test .boxess .img-boxs img:nth-child(1) {
+    left: 0;
+  }
+  #test .boxess .content {
+    width: 55%;
+    margin-left: 20px;
+  }
+  #test .boxess .content ul li i {
+    color: orange;
+    margin: 0 2px;
+  }
+  #test .boxess .content .testi-bottom {
+    position: relative;
+  }
+  #test .boxess .content .testi-bottom .next {
+    position: absolute;
+    right: 80%;
+    color: #E52727;
+    background-color: white;
+    border: 2px solid #E52727;
+    padding: 10px 15px;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+  }
+  #test .boxess .content .testi-bottom .next:hover {
+    color: white;
+    background-color: #E52727;
+  }
+  #test .boxess .content .testi-bottom .prev {
+    position: absolute;
+    left: 0;
+    color: #E52727;
+    background-color: white;
+    border: 2px solid #E52727;
+    padding: 10px 15px;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+  }
+  #test .boxess .content .testi-bottom .prev:hover {
+    color: white;
+    background-color: #E52727;
+  }
+  #take .box-left {
+    width: 100%;
+  }
+  #take .box-right {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
