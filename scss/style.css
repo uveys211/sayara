@@ -1,3 +1,25 @@
+#main {
+  padding-top: 68px;
+}
+#main #breadcrumbs {
+  padding: 70px 0;
+  background-image: url(/image/about/breadcrumbs.jpg);
+}
+#main #breadcrumbs h1 {
+  color: white;
+  font-weight: 900;
+}
+#main #breadcrumbs .path {
+  padding-top: 10px;
+}
+#main #breadcrumbs .path a {
+  text-decoration: none;
+  color: #E52727;
+}
+#main #breadcrumbs .path span {
+  color: white;
+}
+
 #about {
   padding-top: 80px;
   padding-bottom: 100px;
@@ -88,7 +110,7 @@
 }
 #test .boxess .content .testi-bottom .next {
   position: absolute;
-  right: 75%;
+  right: 70%;
   color: #E52727;
   background-color: white;
   border: 2px solid #E52727;
@@ -116,12 +138,26 @@
 }
 
 #take {
+  height: auto;
   height: 33vh;
   position: relative;
   background-color: transparent;
   background-image: linear-gradient(90deg, #E52727 25%, rgba(0, 0, 0, 0.8) 70%);
   opacity: 1;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+#take .overlay {
+  background-image: url(/image/about/takee.jpg);
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #take .box-left {
   margin-top: 70px;
@@ -139,13 +175,6 @@
 }
 #take .box-right {
   display: none;
-}
-#take .box-right .wheel {
-  position: absolute;
-  top: -50px;
-  width: 350px;
-  height: 320px;
-  right: 80px;
 }
 
 @media (min-width: 576px) {
@@ -346,10 +375,20 @@
     color: white;
     background-color: #E52727;
   }
+  #take {
+    position: relative;
+  }
   #take .box-left {
     width: 100%;
   }
   #take .box-right {
     display: block;
+  }
+  #take .box-right .wheel {
+    position: absolute;
+    top: -50px;
+    width: 350px;
+    height: 320px;
+    right: 80px;
   }
 }/*# sourceMappingURL=style.css.map */
